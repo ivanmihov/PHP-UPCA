@@ -42,22 +42,22 @@ function UPCA() {
 	 * 8	Reserved
 	 * 9	Reserved
 	 */
-	$digits[0] = 0;
+	$digits[1] = 0;
 	
 	// Manufacturer 5 digit code
-	$digits[1] = 9;
 	$digits[2] = 9;
 	$digits[3] = 9;
 	$digits[4] = 9;
 	$digits[5] = 9;
+	$digits[6] = 9;
 	
 	// Fill the rest 5 digits (product code) with random values
-	for ($i = 6; $i < 11; $i++) {
+	for ($i = 7; $i < 12; $i++) {
 		$digits[$i] = rand(0,9);
 	}
 	
 	// Loop to sum the digits with odd and even positions
-	for ($j = 0; $j < 11; $j++) {
+	for ($j = 1; $j < 12; $j++) {
 		if($j % 2 == 0) {
 			//sum the digits with even position
 	                $even_sum += $digits[$j];
