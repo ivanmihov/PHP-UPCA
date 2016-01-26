@@ -88,7 +88,10 @@ function UPCA() {
 	// Set the check digit as the last barcode digit
 	$digits[$j] = $check_digit;
 
-	return implode('',$digits);
+	// Create the UPC code
+    $upca = array('upca' => implode('',$digits));
+
+    return json_encode($upca);
 }
 
 echo UPCA();
