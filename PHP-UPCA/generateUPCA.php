@@ -2,7 +2,7 @@
 /*
  * Simple UPC-A Number Generator
  *
- * @author Ivan Mihov (imihov@me.com)
+ * @author Ivan Mihov (mihovim@gmail.com)
  *
  *
  * UPC-A: 
