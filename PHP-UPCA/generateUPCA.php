@@ -3,7 +3,7 @@
  * Simple UPC-A Number Generator
  *
  * @author Ivan Mihov (mihovim@gmail.com)
- *
+ * www.imihov.com
  *
  * UPC-A: 
  *	1st digit - code type
